@@ -14,7 +14,7 @@ Input: s = "rat", t = "car"
 Output: false
 */
 
-// 1st Solution
+/*================ Solution 1 ============== */
 // const isAnagram = function (s, t) {
 //   s = s.split("").sort().join("");
 //   t = t.split("").sort().join("");
@@ -24,7 +24,7 @@ Output: false
 
 // isAnagram("rat", "car");
 
-// 2nd Solution
+/*================ Solution 2 ============== */
 const isAnagram = function (s, t) {
   if (s.length !== t.length) return false;
 
